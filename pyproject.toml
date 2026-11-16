@@ -1,7 +1,7 @@
 [project]
 name = "bizbot"
 version = "0.1.0"
-description = "Add your description here"
+description = "Учебный проект в целях осовоения python, разработке ботов, AI интеграций для выхода на фриланс"
 readme = "README.md"
 authors = [
     { name = "SkaT", email = "161934603+SkaT04@users.noreply.github.com" }
@@ -15,3 +15,8 @@ bizbot = "bizbot:main"
 [build-system]
 requires = ["uv_build>=0.13.8,<0.14.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.5",
+]
